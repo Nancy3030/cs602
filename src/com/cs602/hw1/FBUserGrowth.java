@@ -3,8 +3,7 @@ package com.cs602.hw1;
 public class FBUserGrowth {
 
     public static int getMonth(double principal, double rate, double amount){
-        int n = (int)(Math.log(amount/principal)/Math.log(1.0 + rate));
-        return n;
+        return (int)(Math.log(amount/principal)/Math.log(1.0 + rate));
     }
 
     public static void main (String [] args) {

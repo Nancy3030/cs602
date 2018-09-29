@@ -14,9 +14,9 @@ public class BodyMassIndexCalculator {
         int height;
         int bMI;
 
-        System.out.print ("Enter Your Weight in Pounds: ");
+        System.out.print ("Please Enter Your Weight in Pounds: ");
         weight = input.nextInt();
-        System.out.print ("Enter Your Height in Inches: ");
+        System.out.print ("Please Enter Your Height in Inches: ");
         height = input.nextInt();
         bMI = (weight * 703) / (height * height);
         System.out.printf ("Your Body Mass Index (BMI) is %d\n\n", bMI);
